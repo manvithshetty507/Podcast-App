@@ -1,0 +1,45 @@
+.custom__audio__player {
+    padding: 1rem 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(14, 2, 21, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--white);
+}
+
+.display__image__player {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+
+.duration__flex {
+   display: flex;
+   align-items: center;
+   color: var(--white);
+   justify-content: flex-start;
+   gap: 1rem;
+   width: 50%;
+}
+
+.volume__flex {
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+input[type ="range"] {
+    filter: hue-rotate(25deg);
+    width: 100%;
+}
+
+.audio__btn {
+    cursor: pointer;
+}
